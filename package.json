@@ -1,5 +1,5 @@
 {
-  "name": "package.parse-ua",
+  "name": "@lf/parse-ua",
   "version": "0.9.0",
   "description": "This module parses the user agent string and returns the result in the form of CSS classes and an object.",
   "main": "index.js",
