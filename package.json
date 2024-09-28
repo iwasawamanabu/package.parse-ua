@@ -1,0 +1,19 @@
+{
+  "name": "package.parse-ua",
+  "version": "0.1.0",
+  "description": "This module parses the user agent string and returns the result in the form of CSS classes and an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwasawamanabu/package.parse-ua.git"
+  },
+  "author": "iwasawamanabu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwasawamanabu/package.parse-ua/issues"
+  },
+  "homepage": "https://github.com/iwasawamanabu/package.parse-ua#readme"
+}
