@@ -56,8 +56,9 @@ const parseUserAgent = (UA) => {
     --------------------------------------------------------------*/
   const detectedBrowser = browserDetection(ua);
   if (detectedBrowser) {
-    result.classes.push(`ua-${detectedBrowser}`);
-    result.ua.browser = detectedBrowser;
+    result.classes.push(...detectedBrowser.classes);
+    result.ua.browser = detectedBrowser.name;
+    result.ua.browserVersion = detectedBrowser.version;
   }
 
   /* result.
